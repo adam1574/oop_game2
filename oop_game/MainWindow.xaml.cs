@@ -66,5 +66,29 @@ namespace oop_game
             character2.PlusShield();
             Txt2.Text = character2.ToString();
         }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            character1.EmotionalDamage(character2.Damage);
+            Txt2.Text=character2.ToString();
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            character2.EmotionalDamage(character1.Damage);
+            Txt1.Text = character1.ToString();
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            character2.GetHighkick(character1.Highkick);
+            Txt2.Text = character2.ToString();
+        }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            character1.GetHighkick(character2.Highkick);
+            Txt1.Text = character1.ToString();
+        }
     }
 }
