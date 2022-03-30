@@ -52,6 +52,11 @@ namespace oop_game
         {
             shield += 10;
         }
+        public void EmotionalDamage(int damage)
+        {
+            health = 0;
+            shield = 0;
+        }
     }
 
 }
