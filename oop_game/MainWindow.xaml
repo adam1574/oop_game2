@@ -17,6 +17,8 @@
         <Button Content="Shield" HorizontalAlignment="Left" Margin="446,362,0,0" VerticalAlignment="Top" Height="34" Width="59" Click="Button_Click_5"/>
         <Button Content="EmotionalDamage" HorizontalAlignment="Left" Margin="254,308,0,0" VerticalAlignment="Top" Height="50" Width="126" Click="Button_Click_6"/>
         <Button Content="EmotionalDamage" HorizontalAlignment="Left" Margin="404,309,0,0" VerticalAlignment="Top" Height="49" Width="126" Click="Button_Click_7"/>
+        <Button Content="EmotionalDamage" HorizontalAlignment="Left" Margin="254,308,0,0" VerticalAlignment="Top" Height="50" Width="126" Click="Button_Click_6"/>
+        <Button Content="EmotionalDamage" HorizontalAlignment="Left" Margin="404,309,0,0" VerticalAlignment="Top" Height="49" Width="126" Click="Button_Click_7"/>
         <Button Content="Highkick" HorizontalAlignment="Left" Margin="254,227,0,0" VerticalAlignment="Top" Height="47" Width="88" Click="Button_Click_8"/>
         <Button Content="Highkick" HorizontalAlignment="Left" Margin="442,227,0,0" VerticalAlignment="Top" Height="47" Width="88" Click="Button_Click_9"/>
 
